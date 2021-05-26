@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body {
-    background-color: pink;
+    background-color: rgb(43, 43, 43);
+    overflow-x: hidden;
 }
 main {
     width: 100vw;
@@ -15,45 +16,51 @@ section {
 }
 main section:first-of-type {
     width: 100vw;
-    background-color: red;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
-main section:first-of-type h1, main section:nth-of-type(2) h2, main article section h2,main > section:last-of-type h2 {
-    font-size: 3em;
-    text-align: center;
+.cirkelbegin {
+    height: 25vh;
+    width: 25vh;
+    background-color: springgreen;
+    border-radius: 50% 50%;
+    margin: 0 auto;
 }
 main section:nth-of-type(2) {
     width: 100vw;
-    background-color: lightblue; 
     display: flex;
     align-items: center;
-    justify-content: center;
 }
-
+.cirkel {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 195, 255);
+    border-radius: 0% 0%;
+    margin: 0 auto;
+}
 main section:nth-of-type(3) {
     display: flex;
     width: 100vw;
-}
-main section:nth-of-type(3) div:first-of-type {
-    background-color: olivedrab;
-    width: 66%;
-    display: flex;
     align-items: center;
-    justify-content: center;
 }
-main section:nth-of-type(3) div:last-of-type  {
-    background-color: peru;
-    width: 34%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-main > section:last-of-type {
+.cirkel2 {
+    height: 100vh;
     width: 100vw;
-    background-color: palegreen;
+    background-color: rgb(255, 187, 0);
+    border-radius: 0% 0%;
+    margin: 0 auto;
+}
+
+main section:nth-of-type(4) {
     display: flex;
+    width: 100vw;
     align-items: center;
-    justify-content: center;
+}
+
+.cirkeleind {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(225, 0, 255);
+    border-radius: 0% 0%;
+    margin: 0 auto;
 }
